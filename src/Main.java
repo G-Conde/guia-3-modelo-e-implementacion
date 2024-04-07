@@ -6,5 +6,7 @@ public class Main {
         Cilynder c2= new Cilynder(5.0,3.0,"blue");
         c2.seeVolumen();
         c2.seeObject();
+        String aToString = c2.toString();
+        System.out.println(aToString);
     }
 }

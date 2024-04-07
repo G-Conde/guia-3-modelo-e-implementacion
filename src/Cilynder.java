@@ -18,6 +18,10 @@ public class Cilynder extends Circle {
         return height;
     }
 
+    @Override
+    public String toString(){
+        return "Cilindro: subclase de (" + super.toString() + "), con una altura=" + height;
+    }
     public Double volumen() {
         return area() * this.height;
     }

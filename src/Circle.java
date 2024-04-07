@@ -9,6 +9,10 @@ public class Circle {
         this.radio = radio;
         this.colour = colour;
     }
+    @Override
+    public String toString(){
+        return "Circulo: radio=" + radio + ", colour=" + colour;
+    }
 
     public Double getRadio() {
         return radio;
